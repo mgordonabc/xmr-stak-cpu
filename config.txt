@@ -22,8 +22,11 @@
  *      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 1 },
  * ],
  */
-"cpu_threads_conf" : 
-null,
+  "cpu_threads_conf" :
+  [ 
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 0 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 1 },
+  ],
 
 /*
  * LARGE PAGE SUPPORT
@@ -106,9 +109,9 @@ null,
  *
  * We feature pools up to 1MH/s. For a more complete list see M5M400's pool list at www.moneropools.com
  */
-"pool_address" : "pool.usxmrpool.com:3333",
-"wallet_address" : "",
-"pool_password" : "",
+"pool_address" : "xmr-us-west1.nanopool.org:14444",
+"wallet_address" : "49QdvQey3NT982yskS6GnnGCDekzcAXBR2mK4mKhiVDcPCWM3LsZRxZWbwaVe4vUMveKAzAiA4j8xgUi29TpKXpm41RG5xb",
+"pool_password" : "magic.money.making.machine.01",
 
 /*
  * Network timeouts.
